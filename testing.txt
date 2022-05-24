@@ -1,0 +1,81 @@
+=== Testing of Adopt-a-Dog website ===
+
+This document lists the various ways I tested my Adopt-a-Dog website to ensure the site will work on numerous devices. 
+
+
+== Design approach and test methods ==
+
+This website was designed with a Graceful Degradation method using Visual Studio Code. I applied various media queries to make the website responsive on different screens. During the development, I test different screen sizes using the built-in emulators for both Chrome and Firefox. I also validated my code using an HTML validator and a CSS validator.
+
+
+== The following goes over the different browsers and devices with results ==
+
+Device: MacBook Pro 15" and 16" (personal and work laptop)
+Browsers: Chrome
+- Responsive: Resize behaves as intended
+- Widths: Works well on all sizes
+- Media Queries: response as coded
+- Text alignment: appears as coded
+- Images: respond correctly
+- Hover states: respond correctly
+- Colors: all show correctly
+- Padding: appears as coded
+- Edge of the screen: no flooding past any edges
+- Scroll behavior: works correctly
+- Breakpoints: all appear correctly
+
+Device: MacBook Pro 15" and 16" (personal and work laptop)
+Browsers: Firefox
+- Responsive: Resize behaves as intended
+- Widths: Works well on all sizes
+- Media Queries: response as coded
+- Text alignment: appears as coded
+- Images: respond correctly
+- Hover states: respond correctly
+- Colors: all show correctly
+- Padding: appears as coded
+- Edge of the screen: no flooding past any edges
+- Scroll behavior: works correctly
+- Breakpoints: all appear correctly
+
+Device: MacBook Pro 15" and 16" (personal and work laptop)
+Browsers: Safari
+- Responsive: Resize behaves as intended
+- Widths: Works well on all sizes
+- Media Queries: response as coded. Could only test down to tablet as the browser does not reduce equivalent to mobile devices
+- Text alignment: appears as coded
+- Images: respond correctly
+- Hover states: respond correctly
+- Colors: all show correctly
+- Padding: appears as coded
+- Edge of the screen: no flooding past any edges
+- Scroll behavior: works correctly
+- Breakpoints: all appear correctly
+
+Device: iPhone 12 Pro
+Browsers: Safari
+- Responsive: shows the full website on iPhone due to retina display
+- Widths: Works well in both portrait and landscape
+- Media Queries: unable to test
+- Text alignment: appears as coded
+- Images: respond correctly
+- Hover states: The featured image does not reset but the rest work correctly
+- Colors: all show correctly
+- Padding: appears as coded
+- Edge of the screen: no flooding past any edges
+- Scroll behavior: works correctly
+- Breakpoints: all appear correctly
+
+Device: 12.9 iPad Pro
+Browsers: Safari
+- Responsive: shows the full website as shown on MacBook
+- Widths: Works well in both portrait and landscape
+- Media Queries: unable to test
+- Text alignment: appears as coded
+- Images: respond correctly
+- Hover states: The featured image does not reset but the rest work correctly
+- Colors: all show correctly
+- Padding: appears as coded
+- Edge of the screen: no flooding past any edges
+- Scroll behavior: works correctly
+- Breakpoints: all appear correctly

@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="zxx">
+    <head>
+        <meta charset="utf-8">
+        <title>Adopt a Dog</title>
+        <link rel="stylesheet" type="text/css" href="styles/style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Neuton&family=Work+Sans:wght@200;600&display=swap" rel="stylesheet"> 
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <header>
+            <div class="banner">
+                <div class="header-box1">
+                    <img class="logo" src="images/adoptadog-logo.svg" alt="image of a dog outline">
+                    <h2 class="sub-title">Seattle's premiere dog adoption agency</h2>
+                </div>
+
+            </div>
+        </header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="dogs.html">Dogs</a></li>
+                <li><a href="blog.html">Blog</a></li>
+            </ul>
+        </nav>
+        <section>
+            <div class="formgroup">
+            <h1>Checkout</h1>
+
+            <form method="GET">
+
+                <label>Name
+                    <input type="text" id="aName" name="applicantName">
+                </label>
+                <label>Email Address
+                    <input type="email" id="aEmail" name="applicantEmail">
+                </label>
+                <label>Street Address
+                    <input type="text" id="aAddress" name="applicantAddress">
+                </label>
+
+                <div class="formgrid">
+                <label>City
+                    <input type="text" id="aCity" name="applicantCity">
+                </label>
+                <label>State
+                    <select name="state" id="state">
+                        <option value="AL">AL</option>
+                        <option value="AK">AK</option>
+                        <option value="AZ">AZ</option>
+                        <option value="AR">AR</option>
+                        <option value="CA">CA</option>
+                        <option value="CO">CO</option>
+                        <option value="CT">CT</option>
+                        <option value="DE">DE</option>
+                        <option value="DC">DC</option>
+                        <option value="FL">FL</option>
+                        <option value="GA">GA</option>
+                        <option value="HI">HI</option>
+                        <option value="ID">ID</option>
+                        <option value="IL">IL</option>
+                        <option value="IN">IN</option>
+                        <option value="IA">IA</option>
+                        <option value="KS">KS</option>
+                        <option value="KY">KY</option>
+                        <option value="LA">LA</option>
+                        <option value="ME">ME</option>
+                        <option value="MD">MD</option>
+                        <option value="MA">MA</option>
+                        <option value="MI">MI</option>
+                        <option value="MN">MN</option>
+                        <option value="MS">MS</option>
+                        <option value="MO">MO</option>
+                        <option value="MT">MT</option>
+                        <option value="NE">NE</option>
+                        <option value="NV">NV</option>
+                        <option value="NH">NH</option>
+                        <option value="NJ">NJ</option>
+                        <option value="NM">NM</option>
+                        <option value="NY">NY</option>
+                        <option value="NC">NC</option>
+                        <option value="ND">ND</option>
+                        <option value="OH">OH</option>
+                        <option value="OK">OK</option>
+                        <option value="OR">OR</option>
+                        <option value="PA">PA</option>
+                        <option value="RI">RI</option>
+                        <option value="SC">SC</option>
+                        <option value="SD">SD</option>
+                        <option value="TN">TN</option>
+                        <option value="TX">TX</option>
+                        <option value="UT">UT</option>
+                        <option value="VT">VT</option>
+                        <option value="VA">VA</option>
+                        <option value="WA">WA</option>
+                        <option value="WV">WV</option>
+                        <option value="WI">WI</option>
+                        <option value="WY">WY</option>
+                    </select>	
+                    </label>
+                    <label>Zip Code
+                        <input type="text" id="aZip" name="applicantZip">
+                    </label>
+                </div>
+
+                <fieldset>
+                    <legend>First Time Adopter?</legend><br>
+                    <label><input type="radio" class="firstTimeAdopt" name="firstTimeAdopt" value="yes">Yes</label>
+                    <label><input type="radio"
+                    class="firstTimeAdopt" name="firstTimeAdopt" value="no">No</label>
+                </fieldset>
+                
+                <br>
+                <label>Pickup Location
+                    <select name="location" id="location">
+                        <option value="Seattle">Seattle</option>
+                        <option value="Redmond">Redmond</option>
+                        <option value="Everett">Everett</option>
+                        <option value="Tacoma">Tacoma</option>
+                    </select>
+                </label>
+                <label>Dogs Adopted</label>
+                <div class="finaldoggrid">
+                    <div class="adoptedcontainer">
+                        <img class="adoptedpic" src="images/tucker-good-589776-unsplash.jpg" alt="picture of lucas">
+                        <h3>Lucas</h3>
+                        <p class="textcost">Cost to Adopt: </p>
+                        <p class="textprice">$123.45</p>
+                    </div>
+                    <div class="adoptedcontainer">
+                        <img class="adoptedpic" src="images/duffy-brook-350225-unsplash.jpg" alt="picture of lucas">
+                        <h3>Duffy</h3>
+                        <p class="textcost">Cost to Adopt: </p>
+                        <p class="textprice">$123.45</p>
+                    </div>
+                </div>
+                <br><br>
+                <label>Total Adoption Cost</label>
+                <p>$1234.56</p>
+
+                <button class="buttonform" id="buttonform" onclick="pressed()">Submit</button>
+            </form>
+        </div>
+        </section>
+        <footer>
+            <img class="logo" src="images/adoptadog-logo.svg" alt="image of a dog outline">
+            <p>Aborpos nisto inci tet aut que volupti beruptiberro to ex<br>esseque invenienihil imaximu scideru ptistiusam consequunt</p>
+            <br>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="dogs.html">Dogs</a></li>
+                <li><a href="blog.html">Blog</a></li>
+            </ul>
+            <br>
+            <p>© 2018 Adoptadog, LLC | Seattle, WA</p>
+         </footer>
+         <script src="js/dogcart.js" charset="utf-8"></script>
+    </body>
+</html>
