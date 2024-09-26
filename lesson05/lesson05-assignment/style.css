@@ -1,0 +1,28 @@
+section {
+    background-color: white;
+    padding: 2rem;
+    width: 600px;
+    height: 200px;
+    position: absolute;
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    text-align: center;
+}
+
+body {
+    background-color: #807a6b;
+    font-family: Helvetica, sans-serif;
+}
+
+button {
+    background-color: #4f5459;
+    color: white;
+    padding: 2rem;
+    width: 300px;
+    height: auto;
+    border-radius: 5px;
+    cursor: url(paw.png), auto;
+}
